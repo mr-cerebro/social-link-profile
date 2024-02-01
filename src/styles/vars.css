@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    /* fonts */
+    --font-inter-sans: 'Inter', sans-serif;
+    --font-size-name: 22px;
+    --font-size-address: 12px;
+    --font-size-paragraph: 14px;
+    --font-size-button: 12px;
+    --font-weight-name: 400;
+    --font-weight-address: 700;
+    --font-weight-paragraph: 400;
+    --font-weight-button: 600;
+
+    /* background-colors */
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-grey: hsl(0, 0%, 20%);
+    --color-dark-grey: hsl(0, 0%, 12%);
+    --color-off-black: hsl(0, 0%, 8%);
+
+    /* texts-colors */
+    --color-text-name: hsl(0, 0%, 100%);
+    --color-text-address: hsl(75, 94%, 57%);
+    --color-text-paragraph: hsl(0, 0%, 100%);
+    --color-text-button: hsl(0, 0%, 100%);
+    --color-text-button-hover: hsl(0, 0%, 12%);
+
+}

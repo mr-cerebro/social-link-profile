@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-off-black);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-inter-sans);
+}
+
+.main-container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.main-container__card {
+  background-color: var(--color-dark-grey);
+  padding: 18px;
+  border-radius: 17px;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.main-container__card__avatar {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 50%;
+}
+
+.main-container__card__avatar img {
+  width: 100%;
+}
+
+.main-container__card__text {
+  padding: 22px 10px;
+}
+
+.main-container__card__text h2 {
+  color: var(--color-text-name);
+  padding-bottom: 5px;
+  font-size: var(--font-size-name);
+  font-weight: var(--font-weight-name);
+}
+
+.main-container__card__text span {
+  color: var(--color-text-address);
+  font-size: var(--font-size-address);
+  font-weight: var(--font-weight-address);
+}
+
+.main-container__card__text p {
+  padding-top: 20px;
+  color: var(--color-text-paragraph);
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--font-weight-paragraph);
+}
+
+.main-container__card__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container__card__button button {
+  margin: 5px;
+  cursor: pointer;
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--font-size-button);
+  font-weight: var(--font-weight-button);
+}
+
+.main-container__button__github,
+.main-container__button__frontendmenthor,
+.main-container__button__linkedin,
+.main-container__button__twitter,
+.main-container__button__instagram {
+  background-color: var(--color-grey);
+  color: var(--color-text-button);
+}
+
+.main-container__button__github:hover,
+.main-container__button__frontendmenthor:hover,
+.main-container__button__linkedin:hover,
+.main-container__button__twitter:hover,
+.main-container__button__instagram:hover {
+  background-color: var(--color-green);
+  color: var(--color-text-button-hover);
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 11px;
+  text-align: center;
+  color: var(--color-white);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  padding-left: 5px;
+  text-decoration: none;
+  text-transform: none;
+}
