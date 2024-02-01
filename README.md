@@ -21,9 +21,11 @@ In this project, I developed a modern and responsive component that allows users
 ### Screenshot
 
 <div align="center">
+
 ![Web](./src/assets/images/web.jpg)
 
 ![Mobile](./src/assets/images/mobile.jpg)
+
 </div>
 ### Links
 
